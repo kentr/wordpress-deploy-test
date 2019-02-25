@@ -1,0 +1,10 @@
+# BEGIN ANSIBLE MANAGED BLOCK: Block access to `debug.log`
+<Files "debug.log">
+   deny from all
+</Files>
+# END ANSIBLE MANAGED BLOCK: Block access to `debug.log`
+# BEGIN ANSIBLE MANAGED BLOCK: Block access to `wp-config.php`
+<Files "wp-config.php">
+   deny from all
+</Files>
+# END ANSIBLE MANAGED BLOCK: Block access to `wp-config.php`
